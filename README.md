@@ -1,63 +1,69 @@
-# 虚拟示波器
+非常抱歉，以下是已更新的README.md文本：
 
-这个仓库包含了一个使用 PyQt6 和 Arduino Nano 实现的简易虚拟示波器。该示波器可以实时显示5V范围内的电压波形。该项目采用 GPlv3 协议进行许可。
+```markdown
+# Virtual Oscilloscope
 
-## 功能特点
+This repository contains a simple virtual oscilloscope implemented using PyQt6 and Arduino Nano. The oscilloscope can display voltage waveforms in real-time within the range of 5V. The project is licensed under the GPLv3 license.
 
-- 实时显示电压波形：通过连接 Arduino Nano 和计算机，可以将电压波形实时传输到计算机，并在图形界面中显示。
-- 简易界面：使用 PyQt6 开发的用户友好界面，简单易用。
-- 支持5V电压范围：该虚拟示波器适用于5V以内的电压测量。
+[中文版 README](README.zh.md)
 
-## 如何使用
+## Features
 
-以下是使用该虚拟示波器的基本步骤：
+- Real-time voltage waveform display: By connecting the Arduino Nano to a computer, the voltage waveform can be transmitted in real-time and displayed in the graphical interface.
+- User-friendly interface: Developed using PyQt6, the oscilloscope provides a simple and intuitive user interface.
+- Support for voltage range up to 5V: This virtual oscilloscope is designed for voltage measurements within the range of 5V.
 
-1. 确保你已经连接了 Arduino Nano 板到计算机，并正确地设置了串口的权限。
+## How to Use
 
-2. **使用 Python 代码的方式：**
+Here are the basic steps to use the virtual oscilloscope:
 
-   - 在计算机上安装 Python 3.11，并安装 PyQt6 库。
-   - 克隆该仓库到本地：
+1. Make sure you have connected the Arduino Nano board to your computer and have properly set up the serial port permissions.
+
+2. **Using Python Code:**
+
+   - Install Python 3.11 on your computer and install the PyQt6 library.
+   - Clone this repository to your local machine:
 
      ```
      git clone git@github.com:Elonisme/Virtual-Simple-Oscilloscope.git
      ```
 
-   - 进入项目目录：
+   - Navigate to the project directory:
 
      ```
      cd Virtual-Simple-Oscilloscope
      ```
 
-   - 运行主程序：
+   - Run the main program:
 
      ```
      python main.py
      ```
 
-3. **使用已发布的可执行文件的方式：**
+3. **Using the Released Executable:**
 
-   - 在计算机上下载最新的可执行文件：[Releases](https://github.com/Elonisme/Virtual-Simple-Oscilloscope/releases)。
-   - 解压缩下载的文件。
-   - 双击运行可执行文件。
+   - Download the latest executable file for your computer from [Releases](https://github.com/Elonisme/Virtual-Simple-Oscilloscope/releases).
+   - Extract the downloaded file.
+   - Double-click the executable file to run it.
 
-4. 在图形界面上，你将看到实时的电压波形显示。
+4. In the graphical interface, you will see the real-time voltage waveform display.
 
-## 许可
+## License
 
-该项目基于 GPlv3 协议进行许可。详细信息请参阅 [LICENSE](LICENSE) 文件。
+This project is licensed under the GPLv3 license. For more details, please refer to the [LICENSE](LICENSE) file.
 
-## 贡献
+## Contributing
 
-如果你对该项目有任何改进或建议，欢迎贡献你的代码。请提出问题或提交请求。
+If you have any improvements or suggestions for this project, feel free to contribute your code. Please open an issue or submit a pull request.
 
-## 免责声明
+## Disclaimer
 
-该虚拟示波器仅用于教育和学习目的。请小心操作，遵循适当的安全措施。作者对使用该示波器可能产生的任何损失或损害不承担任何责任。
+This virtual oscilloscope is intended for educational and learning purposes only. Please handle with care and follow appropriate safety measures. The author assumes no responsibility for any loss or damage caused by the use of this oscilloscope.
 
-## 联系方式
+## Contact
 
-如有任何问题或疑问，请通过以下方式联系作者：
+If you have any questions or concerns, you can contact the author through the following:
 
-- 电子邮件：elonisme@163.com
-- GitHub 项目页面:[Elonisme/Virtual-Simple-Oscilloscope](https://github.com/Elonisme/Virtual-Simple-Oscilloscope)
+- Email: elonisme@163.com
+- GitHub project page: [Elonisme/Virtual-Simple-Oscilloscope](https://github.com/Elonisme/Virtual-Simple-Oscilloscope)
+```

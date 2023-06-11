@@ -1,6 +1,3 @@
-非常抱歉，以下是已更新的README.md文本：
-
-```markdown
 # Virtual Oscilloscope
 
 This repository contains a simple virtual oscilloscope implemented using PyQt6 and Arduino Nano. The oscilloscope can display voltage waveforms in real-time within the range of 5V. The project is licensed under the GPLv3 license.
